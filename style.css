@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Golstyno', sans-serif;
 }
 
 /* Corpo da página */
@@ -115,4 +116,5 @@ ul li sup {
 
 ul li sub {
     font-size: 0.8rem;
+
 }
