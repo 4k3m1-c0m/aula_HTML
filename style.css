@@ -1,0 +1,118 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Corpo da página */
+body {
+    background-color: #fffaf0; /* tom suave de creme */
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Cabeçalhos */
+h1 {
+    color: #e94e1b; /* tom laranja forte para destaque */
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+h2 {
+    color: #d35400;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #e67e22;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+/* Parágrafos */
+p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+/* Citação */
+blockquote {
+    font-style: italic;
+    color: #555;
+    border-left: 4px solid #e94e1b;
+    padding-left: 10px;
+    margin: 15px 0;
+}
+
+/* Listas */
+ul, ol {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Imagem */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+caption {
+    caption-side: top;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+th, td {
+    border: 1px solid #e67e22;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f5c27f;
+}
+
+td {
+    background-color: #fff2e6;
+}
+
+/* Destaques */
+strong {
+    color: #c0392b;
+}
+
+em {
+    font-style: italic;
+    color: #d35400;
+}
+
+/* Dicas de culinária */
+ul li sup {
+    font-size: 0.8rem;
+}
+
+ul li sub {
+    font-size: 0.8rem;
+}
